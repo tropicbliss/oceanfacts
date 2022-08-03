@@ -1,5 +1,5 @@
 import FactList from "../components/FactList";
-import { server } from "../config";
+import { facts as rawFacts } from "../facts";
 
 export default function Home({ facts }) {
   return (
@@ -10,8 +10,6 @@ export default function Home({ facts }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`${server}/api/facts`);
-  const rawFacts = await res.json();
   const facts = rawFacts.map((e, i) => {
     return { ...e, id: i };
   });

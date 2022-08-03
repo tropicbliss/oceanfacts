@@ -1,4 +1,4 @@
-import { server } from "../../../config";
+import { facts as rawFacts } from "../../../facts";
 
 const fact = ({ fact }) => {
   return (
@@ -8,7 +8,7 @@ const fact = ({ fact }) => {
           <img className="rounded" src={p} key={i} />
         ))}
       </div>
-      <p className="font-normal text-gray-700 dark:text-gray-400">
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
         {fact.fact}
       </p>
     </div>
@@ -16,8 +16,7 @@ const fact = ({ fact }) => {
 };
 
 export const getStaticProps = async (context) => {
-  const res = await fetch(`${server}/api/facts/${context.params.id}`);
-  const fact = await res.json();
+  const fact = rawFacts[context.params.id];
   return {
     props: {
       fact,
@@ -26,8 +25,6 @@ export const getStaticProps = async (context) => {
 };
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`${server}/api/facts`);
-  const rawFacts = await res.json();
   const facts = rawFacts.map((e, i) => {
     return { ...e, id: i };
   });
