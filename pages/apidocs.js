@@ -2,7 +2,7 @@ const apidocs = () => {
   return (
     <div className="p-3 mt-20">
       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        GET /api
+        GET /api/facts
       </h2>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
         Description: Returns all the ocean facts.
@@ -14,7 +14,7 @@ const apidocs = () => {
         200: Successfully got ocean facts.
       </p>
       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        GET /api/[id]
+        GET /api/facts/[id]
       </h2>
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
         Description: Returns an ocean fact that corresponds to an id.
