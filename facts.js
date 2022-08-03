@@ -2729,4 +2729,10 @@ export const facts = [
       "https://cdn.discordapp.com/attachments/815803489443381289/1004061136427155556/Galeorhinus-galeus-05.jpg",
     ],
   },
+  {
+    fact: "The Buri (yellowtail) is called by different names depending on its stage of growth. This parallels a custom among warrior and aristocratic families in premodern Japan of conferring adult names to children after their coming-of-age ceremony. Sixteenth-century warlord Oda Nobunaga, for example, was known as Kippōshi as a child, and Takechiyo was the childhood name of Tokugawa Ieyasu—founder of the Tokugawa shogunate. Fish that take on different names as they grow were considered propitious and served when giving someone a sendoff. Before becoming buri, the fish is called wakashi, inada, and warasa in eastern Japan and tsubasu, hamachi, and mejiro in western Japan. Buri is a name reserved for fish over 80 centimeters, while hamachi is used in the west for smaller, cultivated buri. In English, it is called yellowtail or, sometimes, Japanese amberjack.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1004439975519076402/44118.jpg",
+    ],
+  },
 ];
