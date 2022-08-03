@@ -16,6 +16,7 @@ const about = () => {
           className="text-yellow-300 underline"
           href="https://github.com/Tyrrrz/DiscordChatExporter"
           target="_blank"
+          rel="noreferrer"
         >
           Discord Chat Exporter
         </a>{" "}

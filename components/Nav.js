@@ -56,6 +56,7 @@ const Nav = () => {
               <a
                 href="https://github.com/tropicbliss/oceanfacts"
                 target="_blank"
+                rel="noreferrer"
               >
                 GitHub
               </a>
