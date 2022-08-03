@@ -2723,4 +2723,10 @@ export const facts = [
       "https://cdn.discordapp.com/attachments/815803489443381289/1003703639166165002/60c8b919be87286d41ebeafc_15_20_fin_tastic_20_facts_20_about_20_the_20_doctor_20_fish_20_for_20_kids_0f7d708ef4.jpg",
     ],
   },
+  {
+    fact: "Tope sharks, Galeorhinus galeus, are ovoviviparous (fertilized eggs develop in the female without a yolk-sac placenta). Litter size ranges from 6-52 pups and increases according to the size of the mother. Newborn pups measure 30-36 cm at birth. In Australia, newborns and juveniles aggregate in nurseries found in shallow waters and move into deeper coastal waters during winter after which they return to the nursing grounds.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1004061136427155556/Galeorhinus-galeus-05.jpg",
+    ],
+  },
 ];
