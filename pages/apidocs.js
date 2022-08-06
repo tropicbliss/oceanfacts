@@ -25,6 +25,18 @@ const apidocs = () => {
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
         200: Successfully got an ocean fact.
       </p>
+      <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        GET /api/facts/random
+      </h2>
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        Description: Returns a random ocean fact.
+      </p>
+      <h3 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+        Responses
+      </h3>
+      <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        200: Successfully got an ocean fact.
+      </p>
     </div>
   );
 };
