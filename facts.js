@@ -2616,7 +2616,7 @@ export const facts = [
     ],
   },
   {
-    fact: "Plankton are tiny aquatic organisms that cannot move on their own. They live in the photic zone. They include phytoplankton and zooplankton. Phytoplankton are bacterium and alga that use sunlight to make food. Their counterparts, Nekton, are aquatic animals that can move on their own by “swimming” through the water. They may live in the photic or aphotic zone. They feed on plankton or other nekton. Examples of nekton include fish and shrimp.",
+    fact: 'Plankton are tiny aquatic organisms that cannot move on their own. They live in the photic zone. They include phytoplankton and zooplankton. Phytoplankton are bacterium and alga that use sunlight to make food. Their counterparts, Nekton, are aquatic animals that can move on their own by "swimming" through the water. They may live in the photic or aphotic zone. They feed on plankton or other nekton. Examples of nekton include fish and shrimp.',
     picture: [
       "https://cdn.discordapp.com/attachments/815803489443381289/997165112072880148/Neuston_Plankton_Nekton_Benthos.jpg",
     ],
@@ -2733,6 +2733,18 @@ export const facts = [
     fact: "The Buri (yellowtail) is called by different names depending on its stage of growth. This parallels a custom among warrior and aristocratic families in premodern Japan of conferring adult names to children after their coming-of-age ceremony. Sixteenth-century warlord Oda Nobunaga, for example, was known as Kippōshi as a child, and Takechiyo was the childhood name of Tokugawa Ieyasu—founder of the Tokugawa shogunate. Fish that take on different names as they grow were considered propitious and served when giving someone a sendoff. Before becoming buri, the fish is called wakashi, inada, and warasa in eastern Japan and tsubasu, hamachi, and mejiro in western Japan. Buri is a name reserved for fish over 80 centimeters, while hamachi is used in the west for smaller, cultivated buri. In English, it is called yellowtail or, sometimes, Japanese amberjack.",
     picture: [
       "https://cdn.discordapp.com/attachments/815803489443381289/1004439975519076402/44118.jpg",
+    ],
+  },
+  {
+    fact: 'Requiem Sharks are incredibly fast and effective hunters. Their elongated, torpedo-shaped bodies make them quick and agile swimmers, so they can easily attack any prey. They have a range of food sources depending on their location and species that includes bony fish, squids, octopuses, lobsters, turtles, marine mammals, seabirds, other sharks, and rays. Requiem Sharks are often considered the "garbage cans" of the sea because they will eat almost anything, even non-food items like trash.',
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1004789771073237074/Tiger_shark.jpg",
+    ],
+  },
+  {
+    fact: "The Dead Sea is a popular tourist destination for many reasons, one of which is its medicinal values. The water of the Dead Sea contains 26 beneficial minerals, and the air contains minimal amounts of dust and allergens compared to other places in the world. Apart from dipping in the sea and in sulfur-rich pools in the surrounding spa resorts, many rub themselves with the black mud found at its banks, which is said to relief different skin issues.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1005147282791993446/1200px-Dead_Sea_by_David_Shankbone.jpg",
     ],
   },
 ];
