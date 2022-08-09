@@ -2747,4 +2747,22 @@ export const facts = [
       "https://cdn.discordapp.com/attachments/815803489443381289/1005147282791993446/1200px-Dead_Sea_by_David_Shankbone.jpg",
     ],
   },
+  {
+    fact: "The Lithogenes wahari has some incredible adaptations for living in the fast moving water. It possesses a set of highly developed pelvic fins that resemble legs and a large strong mouth both of which allow the fish to cling and even climb up rocks to stay put in the powerful current. Indeed, when American Museum of Natural History ichthyologist Scott Schaefer tracked the climbing catfish to a tributary of the Orinoco River, he merely had to pluck the specimens off the rocks where they were hanging on tight.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1005506904132431962/090122-climbingfish-2-hmed-12p.jpg",
+    ],
+  },
+  {
+    fact: "Electric rays are a group of rays that can produce an electric discharge, ranging from as little as 8 volts up to 220 volts depending on species. There are 69 species in four subfamilies. These rays have battery-like electric organs on both sides of their heads, which can make a powerful electric shock. They use this shock to stun their prey and for their own self defense.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1005871295990333460/sw_ray02.jpg",
+    ],
+  },
+  {
+    fact: "For many male mudskippers, finding a mate is all about how high he can fly. Despite the muddy and not-so-romantic environment, a high jump can get him noticed in the mudskipper dating pool. Amazingly, these fish can jump up to two feet above the mud, all in the name of love. Mudskippers are also quite territorial, so spotting a duel between a couple of mudskippers is not uncommon if a neighbor gets too close. The skirmish typically includes their mouths gaping open and their dorsal fins being raised while they leap towards each other in aggression; some species of mudskipper even let out a fish equivalent to a battle cry.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1006242047847567520/BKQkYA.gif",
+    ],
+  },
 ];
