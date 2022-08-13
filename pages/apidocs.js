@@ -4,7 +4,7 @@ const apidocs = () => {
   return (
     <div className="p-3 mt-20">
       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        <a href="/api/facts" target="_blank">
+        <a href="/api/facts" target="_blank" rel="noreferrer">
           GET /api/facts
         </a>
       </h2>
@@ -18,7 +18,7 @@ const apidocs = () => {
         200: Successfully got ocean facts.
       </p>
       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        <a href="/api/facts/0" target="_blank">
+        <a href="/api/facts/0" target="_blank" rel="noreferrer">
           GET /api/facts/[id]
         </a>
       </h2>
@@ -32,7 +32,7 @@ const apidocs = () => {
         200: Successfully got an ocean fact.
       </p>
       <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-        <a href="/api/facts/random" target="_blank">
+        <a href="/api/facts/random" target="_blank" rel="noreferrer">
           GET /api/facts/random
         </a>
       </h2>
