@@ -2789,4 +2789,10 @@ export const facts = [
       "https://cdn.discordapp.com/attachments/815803489443381289/1007684570012991518/Read_shortjaw_cisco_facts_to_learn_more_about_these_species_at_risk_from_the_large_lakes_of_Canada_53a76ebc1d.jpg",
     ],
   },
+  {
+    fact: "The Asian Swamp Eel, was introduced by unknown sources to ponds at the Chattahoochee Nature Center (CNC) in the mid-1990's. The eels at the CNC are one of only five populations found in the United States, the others being in Hawaii and in Florida. It is possible that they were introduced when someone dumped a fish tank. Another possibility is someone intentionally introduced them in an attempt to establish a food source. As with any invasive species, the eels present a threat to native species by disrupting their interactions with their natural habitat. Beyond not being a part of the natural ecosystem, they have several traits that make it a bigger threat. They breathe air, and are capable of withstanding harsh environmental conditions. During periods of drought, they burrow into the ground. They are able to colonize unconnected bodies of water via overland migration. Because they are active at night, they are difficult to detect and capture. They are also tolerant of cool water, such as that of the Chattahoochee River.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1008052043753209976/download_1.jpg",
+    ],
+  },
 ];
