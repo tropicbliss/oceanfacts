@@ -2765,4 +2765,28 @@ export const facts = [
       "https://cdn.discordapp.com/attachments/815803489443381289/1006242047847567520/BKQkYA.gif",
     ],
   },
+  {
+    fact: "A Mongolian legend tells of a giant Taimen trapped in river ice. Starving herders were able to survive the winter by hacking off pieces of its flesh. In the spring, the ice melted, and the giant Taimen climbed onto the land, tracked down the herders, and ate them all.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1006618505132654733/GOPR4181.jpg",
+    ],
+  },
+  {
+    fact: "Tiger barbs have a strong need to be in large groups. They are highly social and will only thrive when kept in groups of eight or more. A school of tiger barb fish will develop a pecking order, similar to a pack of wolves or a pod of dolphins. If you learn to discern the differences between your tiger barbs, you will see that they eat in the exact same order every time.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1006981841846284490/Screenshot2021-10-12at092804.webp",
+    ],
+  },
+  {
+    fact: "Rohu is a pure vegetarian fish; however, their food preference changes with the change in their age. The diet of rohu fry consists mainly of zooplankton, whereas rohu adults feed on phytoplankton and submerged plants. They also like to feed on bread, which is hence used as bait to catch them on a hook. In their organic environment, this fish mainly feeds by sieving the water with the help of their thin hair-like gill rakers. Since they do not have any teeth in their jaw, the fish feeds by nibbling the food using their mouth.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1007354853326078073/Webp_net_resizeimage_2022_04_06_T212945_383_6b800d441f.jpg.webp",
+    ],
+  },
+  {
+    fact: 'Cisco are sometimes called the "canaries of cold water." They do not tolerate warm water or low oxygen levels and have declined in, or disappeared from, over 20 percent of their native lakes in Michigan. Development and other land use changes can lead to increases in the nutrient phosphorus. Increased nutrient levels accelerate plant and algae growth, which in turn drives greater decomposition below the thermocline of stratified lakes, depleting oxygen required for cisco to thrive. Inland lakes that do retain high water quality are often stocked with trout, which also require cold oxygenated water, or other gamefish. Stocking predators or competitors is also recognized as the cause of cisco decline in some inland lakes.',
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1007684570012991518/Read_shortjaw_cisco_facts_to_learn_more_about_these_species_at_risk_from_the_large_lakes_of_Canada_53a76ebc1d.jpg",
+    ],
+  },
 ];
