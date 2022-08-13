@@ -26,7 +26,7 @@ const fact = ({ fact }) => {
       <div className="mb-3 grid grid-cols-2 gap-3">
         {fact.picture.map((p, i) => (
           <Image
-            className="rounded"
+            className="rounded-lg"
             src={p}
             alt="Picture of stuff you'll probably find in an ocean"
             width={500}
