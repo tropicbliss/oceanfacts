@@ -34,7 +34,7 @@ const fact = ({ fact }) => {
             priority={i == 0}
             placeholder="blur"
             blurDataURL={`data:image/svg+xml;base64,${toBase64(
-              shimmer(700, 475)
+              shimmer(500, 500)
             )}`}
             key={i}
           />
