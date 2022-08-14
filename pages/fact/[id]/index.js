@@ -1,5 +1,7 @@
 import { facts as rawFacts } from "../../../facts";
 import Image from "next/image";
+import { useRouter } from "next/router";
+import Link from "next/link";
 
 const shimmer = (w, h) => `
 <svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -20,7 +22,11 @@ const toBase64 = (str) =>
     ? Buffer.from(str).toString("base64")
     : window.btoa(str);
 
-const fact = ({ fact }) => {
+const fact = ({ fact, totalLength }) => {
+  const router = useRouter();
+  const { id } = router.query;
+  const nextId = +id + 1;
+
   return (
     <div className="p-3 mt-20">
       <div className="mb-3 grid grid-cols-2 gap-3">
@@ -43,15 +49,42 @@ const fact = ({ fact }) => {
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
         {fact.fact}
       </p>
+      <div className="flex flex-row-reverse">
+        <div hidden={nextId === totalLength}>
+          <Link href={`/fact/${nextId}`}>
+            <button
+              type="button"
+              className="text-blue-700 border border-blue-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800"
+            >
+              <svg
+                aria-hidden="true"
+                className="w-5 h-5"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd"
+                ></path>
+              </svg>
+              <span className="sr-only">Icon description</span>
+            </button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
 
 export const getStaticProps = async (context) => {
   const fact = rawFacts[context.params.id];
+  const totalLength = rawFacts.length;
   return {
     props: {
       fact,
+      totalLength,
     },
   };
 };
