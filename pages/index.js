@@ -10,9 +10,11 @@ export default function Home({ facts }) {
 }
 
 export const getStaticProps = async () => {
-  const facts = rawFacts.map((e, i) => {
-    return { ...e, id: i };
-  });
+  const facts = rawFacts
+    .map((e) => e.fact)
+    .map((e, i) => {
+      return { ...e, id: i };
+    });
   return {
     props: {
       facts,
