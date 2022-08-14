@@ -2795,4 +2795,10 @@ export const facts = [
       "https://cdn.discordapp.com/attachments/815803489443381289/1008052043753209976/download_1.jpg",
     ],
   },
+  {
+    fact: "It is entirely possible to use hot dogs as bait instead of the normal options of night crawlers, crickets, etc. Now it is not likely the fish will eat the hotdog but all you really need is enough time for your catch to get caught on the hook. This method is especially effective on catfish, carp, northern pike, and bluegill because they're all opportunistic feeders. If you are going to use hotdog as bait it should go without saying using the the entire hotdog per cast is incredibly wasteful and it's better to rip off small chunks as fish aren't picky about hotdog serving sizes.",
+    picture: [
+      "https://cdn.discordapp.com/attachments/815803489443381289/1008412645541556256/finished_red_hotdog_catfish_bait.jpg",
+    ],
+  },
 ];
