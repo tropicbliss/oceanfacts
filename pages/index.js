@@ -12,8 +12,8 @@ export default function Home({ facts }) {
 export const getStaticProps = async () => {
   const facts = rawFacts
     .map((e) => e.fact)
-    .map((e, i) => {
-      return { ...e, id: i };
+    .map((f, i) => {
+      return { fact: f, id: i };
     });
   return {
     props: {
