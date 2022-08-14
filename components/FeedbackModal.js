@@ -35,14 +35,11 @@ const FeedbackModal = ({ showModal, factID, onClick }) => {
           </div>
           <div className="p-6 space-y-6">
             <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
-              {`Fact ID: ${factID}`}
-            </p>
-            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
               Found a spelling mistake? Have a suggestion to improve the
               website? Click the button below to enter your feedback!
             </p>
           </div>
-          <div className="flex items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
+          <div className="flex justify-between items-center p-6 space-x-2 rounded-b border-t border-gray-200 dark:border-gray-600">
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSei2oDI0nunSnhuNRReM8W4vR2em_UCq1A2hdbs5Aav12KuMA/viewform?usp=sf_link"
               target="_blank"
@@ -55,6 +52,9 @@ const FeedbackModal = ({ showModal, factID, onClick }) => {
                 Feedback Form
               </button>
             </a>
+            <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
+              {`Fact ID: ${factID}`}
+            </p>
           </div>
         </div>
       </div>
