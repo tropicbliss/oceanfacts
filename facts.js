@@ -112,7 +112,7 @@ export const facts = [
     picture: [],
   },
   {
-    fact: "Of all the freshwater game fish, rock bass are the best chameleons, meaning that they can quickly change color to match theirsurroundings. On light, sandy bottoms, they're usually light tan, but on dark bottoms, they might be brownish black in color.",
+    fact: "Of all the freshwater game fish, rock bass are the best chameleons, meaning that they can quickly change color to match their surroundings. On light, sandy bottoms, they're usually light tan, but on dark bottoms, they might be brownish black in color.",
     picture: [],
   },
   {

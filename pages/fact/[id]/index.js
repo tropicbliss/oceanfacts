@@ -2,6 +2,8 @@ import { facts as rawFacts } from "../../../facts";
 import Image from "next/image";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { useState } from "react";
+import FeedbackModal from "../../../components/FeedbackModal";
 
 const shimmer = (w, h) => `
 <svg width="${w}" height="${h}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -22,7 +24,8 @@ const toBase64 = (str) =>
     ? Buffer.from(str).toString("base64")
     : window.btoa(str);
 
-const fact = ({ fact, totalLength }) => {
+const Fact = ({ fact, totalLength }) => {
+  const [showModal, setShowModal] = useState(false);
   const router = useRouter();
   const { id } = router.query;
   const nextId = +id + 1;
@@ -49,16 +52,16 @@ const fact = ({ fact, totalLength }) => {
       <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
         {fact.fact}
       </p>
-      <div className="flex flex-row-reverse">
+      <div className="flex flex-row-reverse space-x-3 space-x-reverse">
         <div hidden={nextId === totalLength}>
           <Link href={`/fact/${nextId}`}>
             <button
               type="button"
-              className="text-blue-700 border border-blue-700 hover:bg-blue-700 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:focus:ring-blue-800"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               <svg
                 aria-hidden="true"
-                className="w-5 h-5"
+                class="w-5 h-5"
                 fill="currentColor"
                 viewBox="0 0 20 20"
                 xmlns="http://www.w3.org/2000/svg"
@@ -69,11 +72,23 @@ const fact = ({ fact, totalLength }) => {
                   clip-rule="evenodd"
                 ></path>
               </svg>
-              <span className="sr-only">Icon description</span>
+              <span class="sr-only">Goes to the next fact</span>
             </button>
           </Link>
         </div>
+        <button
+          className="block text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          type="button"
+          onClick={() => setShowModal(true)}
+        >
+          Feedback
+        </button>
       </div>
+      <FeedbackModal
+        showModal={showModal}
+        factID={id}
+        onClick={() => setShowModal(!showModal)}
+      />
     </div>
   );
 };
@@ -101,4 +116,4 @@ export const getStaticPaths = async () => {
   };
 };
 
-export default fact;
+export default Fact;
