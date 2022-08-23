@@ -11,6 +11,7 @@ const Nav = () => {
           <div
             className="flex space-x-3 align-center cursor-pointer text-xl select-none"
             aria-label="Ocean Facts Logo"
+            onClick={() => setMenuExpanded(false)}
           >
             <div className="">🌊</div>
             <div className="font-semibold whitespace-nowrap dark:text-white">
