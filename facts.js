@@ -1655,9 +1655,7 @@ export const facts = [
   },
   {
     fact: "Tetra is the common name that is given to the small freshwater characiform fishes. It is a type of fish that is very small in size and is the prey to many predators. There is no accurate number as to how many tetras there are in the world. Tetras are known as schooling fish. Some of the known varieties are Buenos Aires tetra, emperor tetra, black tetra, Mexican tetra, bleeding heart tetra, penguin tetra, bucktooth tetra, x-ray tetra, vampire tetra, blue tetra and more. They live mostly in groups and are found to be happy and stress-free when they are in their respective groups. When keeping these fish as pets, you should have at least five to six tetras so that they can play with each other in the tank as a group, or else they will get lonely.",
-    picture: [
-      "https://cdn.discordapp.com/attachments/815803489443381289/938119650816983050/cardinaltetra.jpe",
-    ],
+    picture: [],
   },
   {
     fact: "In less than a year, the Nomura's jellyfish grows from the size of a grain of rice to larger than a person. It is one of the largest species of jellyfish, spanning two yards across and weighing 450 pounds—as heavy as a full-grown grown lion! To reach this size, the Nomura's jellyfish hungrily feeds on small plankton, using its hundreds of microscopic mouths. Equipped with lethal barbs called nematocysts, the soft body of the Nomura's jellyfish is not only protected from predators, but also provides safe haven for tiny fish that learn to dodge the poisonous weapons. Its toxin causes swelling, redness, and extreme pain, and in the worst cases, it causes shock and death. Its venom is composed of a cocktail of various things, many of these components resemble toxins present in other organisms like bacteria, bees, snakes, and spiders.",
